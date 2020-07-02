@@ -1,6 +1,6 @@
 # Usage
 
-./generator width height [perfect]
+./generator width height [perfect]  
 ./solver maze
 
 # Dante
