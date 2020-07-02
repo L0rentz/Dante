@@ -1,3 +1,8 @@
+# Usage
+
+./generator width height [perfect]
+./solver maze
+
 # Dante
 
 - **Binary name:** solver/generator
