@@ -1,13 +1,3 @@
-# Usage
-
-./generator width height [perfect]  
-./solver maze
-
-# Algorithms
-
-The generator use a recursive backtracking algorithm to dig.  
-The solver uses first the dead-end filling and then the breadth first search, the A-star is also available, just replace the breadth first search call by this one in the solver main.
-
 # Dante
 
 - **Binary name:** solver/generator
@@ -15,6 +5,11 @@ The solver uses first the dead-end filling and then the breadth first search, th
 - **Language:** C
 - **Group Size:** 1
 - **Compilation:** via Makefile, including re, clean and fclean rules
+
+## Usage
+
+./generator width height [perfect]  
+./solver maze
 
 ## Goal
 
@@ -24,6 +19,11 @@ The project is divided into nine sections, which represent the nine circles of H
 through in order to reach purgatory.  
 The goal of this project is to generate mazes (in a reasonable amount of time), solve them (in a reasonable
 amount of time), and print the solution.  
+
+## Algorithms
+
+The generator use a recursive backtracking algorithm to dig.  
+The solver uses first the dead-end filling and then the breadth first search, the A-star is also available, just replace the breadth first search call by this one in the solver main.
 
 ## Authorized functions
 
