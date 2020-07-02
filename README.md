@@ -3,6 +3,11 @@
 ./generator width height [perfect]  
 ./solver maze
 
+# Algorithms
+
+The generator use a recursive backtracking algorithm to dig.  
+The solver uses first the dead-end filling and then the breadth first search, the A-star is also available, just replace the breadth first search call by this one in the solver main.
+
 # Dante
 
 - **Binary name:** solver/generator
